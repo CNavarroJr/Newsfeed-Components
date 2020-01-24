@@ -16,6 +16,19 @@
   border-left: none;
   border-bottom: none;
   z-index: 2; /* This set the layer level of the element, it has precendence over initial level of 1*/
+
+
+// This is a CSS animation
+  animation: pulse 5s infinite;
+
+  @keyframes pulse {
+    0% {
+      background-color: #81C784;
+    }
+    100% {
+      background-color: #004D40;
+    }
+  }
 }
 
 .menu ul li{
